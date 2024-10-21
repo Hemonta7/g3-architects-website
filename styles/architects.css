@@ -259,7 +259,24 @@ main>section {
     margin-bottom: 6rem;
     filter: grayscale(100%);
 }
-
+/* footer related styles */
+.footer{
+    width: 73.75rem;
+height: 5rem;
+border-radius: 0.5rem;
+background: #FFF4E7;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+margin-bottom: 8rem;
+}
+.footer-tittle{
+    color: var(--Dark-02, #424242);
+text-align: center;
+font-size: 1.2rem;
+font-weight: 400;
+}
 /* responsive */
 /* mobile devices */
 @media screen and (max-width:576px) {
@@ -309,5 +326,9 @@ main>section {
     .sponser-img img{
         margin: 0 auto;
     }
+    .footer{
+        width: 20rem;
+    height: 5rem;
+}
 
 }
